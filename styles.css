@@ -1,0 +1,94 @@
+/* Загальний стиль для всього сайту */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Стиль для заголовків */
+h1,
+h2,
+h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Стиль для основного контенту */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для меню навігації */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Стиль для основних блоків */
+.section {
+    padding: 40px 0;
+    border-bottom: 2px solid #eee;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+/* Стиль для кнопок */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Стиль для футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
